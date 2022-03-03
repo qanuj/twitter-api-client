@@ -1,6 +1,6 @@
 {
   "name": "twitter-api-client",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Node.js / JavaScript client for Twitter API",
   "main": "dist/index.js",
   "scripts": {
@@ -68,5 +68,6 @@
       "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "collectCoverage": true
-  }
+  },
+  "types": "./dist/index.d.ts"
 }
